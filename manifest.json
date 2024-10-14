@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "日语翻译助手",
+  "version": "1.0",
+  "description": "选中英文或中文文本并在鼠标附近显示日语翻译,点击可朗读",
+  "permissions": ["activeTab", "scripting", "tts"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {}
+}
